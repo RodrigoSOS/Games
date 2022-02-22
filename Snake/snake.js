@@ -1,2 +1,4 @@
 //https://games-livid.vercel.app
-console.log("oi")
+const canvas = document.createElement("canvas")
+const context = this.canvas.getContext("2d")
+const camera = new Camera(context)
